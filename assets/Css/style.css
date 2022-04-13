@@ -1,0 +1,19 @@
+.navbar{
+    background-color: transparent !important;
+    color: #ffffff;
+}
+body{
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+}
+
+/*selector de color*/
+
+.bg-black{
+    background-color: black;
+}
+hr{
+    border-radius: 5rem;
+    color: #fff;
+}

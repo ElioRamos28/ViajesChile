@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Título del Proyecto "Viajes Chile"
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Página web sobre viajes de chile y atractivos naturales del destino_
 
 ## Comenzando 🚀
 
@@ -17,6 +17,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 Editor de texto (Visual Studio Code, block de notas)
 Navegador(Chrome)
 Conexión a internet
+disposición de tiempo 24 horas 
 ```
 
 ### Instalación 🔧
@@ -65,6 +66,8 @@ Verificar rutas relativas de como hacer los enlaces para archivos e imagenes, es
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
+* [HTML](https://fonts.google.com/) - CDN librería externa 
+* [CSS](https://fonts.google.com/) - CDN librería externa 
 * [Visual Studio Code](http://www.visualstudio.com/1.0.2/docs/) - El framework web usado
 * [Bootstrap](https://getbootstrap.com/) - Framework de estilos
 * [Jquery](https://releases.jquery.com/) - Libreria externa para efectos visuales

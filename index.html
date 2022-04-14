@@ -27,7 +27,7 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top text-light">
         <!--container o container fluido xs sm md lg xl-->
-        <div class="container-fluid">
+        <div class="container-fluid" id="inicio">
             <a class="navbar-brand text-light" href="#">
                 <img class="w-25" width="30" height="30" src="./assets/img/viajes.svg" alt="logo">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -37,9 +37,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link text-light" href="#">Quiénes Somos</a>
-                    <a class="nav-link text-light" href="#">Destacados</a>
-                    <a class="nav-link disabled text-light">Contacto</a>
+                    <a class="nav-link text-light" href="#quienessomos">Quiénes Somos</a>
+                    <a class="nav-link text-light" href="#destacados">Destacados</a>
+                    <a class="nav-link text-light" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
@@ -72,8 +72,8 @@
     </header>
 
     <!--Quienes Somos-->
-    <section class="pt-5 bg-black">
-        <div class="container">
+    <section id="quienessomos" class="pt-5 bg-black">
+        <div class="container d-none d-lg-block">
             <div class="text-center">
                 <h4 class="mb-4r">¿QUIÉNES SOMOS?</h4>
                 <br>                
@@ -121,7 +121,7 @@
     </section>
 
     <!--Destacados-->
-    <section class="pt-5 bg-black">
+    <section id="destacados" class="pt-5 bg-black">
         <div class="text-center">
             <h4 class="mb-4r">DESTACADOS</h4>
             <br>
@@ -182,7 +182,7 @@
 
 
     <!--Contacto formulario-->
-    <section class="pt-5 bg-black">
+    <section id="contacto" class="pt-5 bg-black">
         <div class="container mx-5">
             <h4 class="mb-4r text-center">CONTACTOS</h4>
             <br>
@@ -201,7 +201,7 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-info text-light">Enviar</button>
+                <button type="submit" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Enviar el mensaje">Enviar</button>
             </form>
         </div>
     </section>
@@ -215,18 +215,18 @@
 
                 <!--col-sm-12 col-md-6 col-lg-6-->
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h4 class="text-uppercase">VIAJES CHILE</h4>
+                    <h4 class="text-uppercase" href="#" >VIAJES CHILE</h4>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6">   
 
-                        <i class="fa-brands fa-github-square fa-2x me-1"></i>
+                        <i class="fa-brands fa-github-square fa-2x me-1" href="..."></i>
 
-                        <i class="fa-brands fa-linkedin fa-2x me-1"></i>
+                        <i class="fa-brands fa-linkedin fa-2x me-1" href="..."></i>
 
-                        <i class="fa-brands fa-twitter-square fa-2x me-1"></i>
+                        <i class="fa-brands fa-twitter-square fa-2x me-1" href="..."></i>
 
-                        <i class="fa-brands fa-facebook-square fa-2x me-1"></i>                    
+                        <i class="fa-brands fa-facebook-square fa-2x me-1" href="..."></i>                    
                 </div>
 
 

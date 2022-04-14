@@ -17,3 +17,21 @@ hr{
     border-radius: 5rem;
     color: #fff;
 }
+
+@media (min-width:400px) {
+    /*estilos que se aplican si se cumple el min de ancho de pantalla*/
+
+    #quienessomos:before{
+        display: none;
+    }
+     
+}
+
+@media (min-width:700px) {
+    /*estilos que se aplican si se cumple el min de ancho de pantalla*/
+
+    #quienessomos:before{
+        display: block;
+    }
+     
+}
